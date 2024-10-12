@@ -67,7 +67,7 @@
   <!-- Footer Section -->
   <footer id="contact">
     <h3>Contact Us</h3>
-    <p>Email: info@maleatoll.com | Phone: +960 1234567</p>
+    <p>Email: info@maldivestravelguide.com | Phone: +960 7910067</p>
   </footer>
 
   <script src="script.js"></script>

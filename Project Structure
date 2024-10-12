@@ -1,0 +1,12 @@
+/maldives-travel-guide
+├── index.html
+├── styles.css
+├── script.js
+├── images/
+│   ├── thulusdhoo.jpg
+│   ├── maafushi.jpg
+│   └── gulhi.jpg
+└── islands/
+    ├── thulusdhoo.html
+    ├── maafushi.html
+    └── gulhi.html

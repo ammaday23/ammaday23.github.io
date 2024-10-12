@@ -1,79 +1,58 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Malé Atoll Islands</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maldives Travel Guide</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>Maldives Travel Guide</h1>
+        <nav>
+            <ul>
+                <li><a href="#islands">Islands</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- Navbar -->
-  <nav>
-    <div class="logo">
-      <h1>Malé Atoll Islands</h1>
-    </div>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#islands">Islands</a></li>
-      <li><a href="#media">Media</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <main>
+        <section id="islands">
+            <h2>Explore the Islands</h2>
+            <div class="island" onclick="location.href='islands/thulusdhoo.html'">
+                <img src="images/thulusdhoo.jpg" alt="Thulusdhoo Island">
+                <h3>Thulusdhoo</h3>
+                <p>Known for its beautiful beaches and vibrant culture.</p>
+            </div>
+            <div class="island" onclick="location.href='islands/maafushi.html'">
+                <img src="images/maafushi.jpg" alt="Maafushi Island">
+                <h3>Maafushi</h3>
+                <p>A popular island for tourists, offering various activities.</p>
+            </div>
+            <div class="island" onclick="location.href='islands/gulhi.html'">
+                <img src="images/gulhi.jpg" alt="Gulhi Island">
+                <h3>Gulhi</h3>
+                <p>Famous for its stunning natural beauty and local life.</p>
+            </div>
+        </section>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h2>Explore the Beauty of Malé Atoll</h2>
-      <p>Discover the stunning islands of North and South Malé Atoll with detailed information, videos, and images.</p>
-      <a href="#islands" class="btn">Explore Islands</a>
-    </div>
-  </section>
+        <section id="about">
+            <h2>About the Maldives</h2>
+            <p>The Maldives is a tropical paradise known for its crystal-clear waters, white sandy beaches, and rich culture. Explore the various islands and discover their unique offerings!</p>
+        </section>
 
-  <!-- Islands Section -->
-  <section id="islands" class="islands-section">
-    <h2>Islands of Malé Atoll</h2>
-    <div class="island-list">
-      <!-- Thulusdhoo Island -->
-      <div class="island">
-        <img src="images/thulusdhoo.jpg" alt="Thulusdhoo">
-        <h3>Thulusdhoo</h3>
-        <p>Population: 1,400 | Famous for Surfing</p>
-        <a href="thulusdhoo.html" class="btn">Learn More</a>
-      </div>
-      <!-- Himmafushi Island -->
-      <div class="island">
-        <img src="images/himmafushi.jpg" alt="Himmafushi">
-        <h3>Himmafushi</h3>
-        <p>Population: 1,100 | Famous for Surfing</p>
-        <a href="himmafushi.html" class="btn">Learn More</a>
-      </div>
-      <!-- More islands can be added similarly -->
-    </div>
-  </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need further information, please reach out to us!</p>
+        </section>
+    </main>
 
-  <!-- Media Section -->
-  <section id="media" class="media-section">
-    <h2>Media Gallery</h2>
-    <div class="media-gallery">
-      <video controls width="400">
-        <source src="videos/maldives-island.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <!-- Additional videos and images -->
-    </div>
-  </section>
+    <footer>
+        <p>&copy; 2024 Maldives Travel Guide. All Rights Reserved.</p>
+    </footer>
 
-  <!-- Footer Section -->
-  <footer id="contact">
-    <h3>Contact Us</h3>
-    <p>Email: info@maldivestravelguide.com | Phone: +960 7910067</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
- <footer>
-    <p>&copy; 2024 Maldives Travel Guide</p>
-  </footer>
+    <script src="script.js"></script>
 </body>
 </html>

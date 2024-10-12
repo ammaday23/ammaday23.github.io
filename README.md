@@ -72,3 +72,8 @@
   <script src="script.js"></script>
 </body>
 </html>
+ <footer>
+    <p>&copy; 2024 Maldives Travel Guide</p>
+  </footer>
+</body>
+</html>

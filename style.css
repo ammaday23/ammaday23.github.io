@@ -47,7 +47,7 @@ nav .logo h1 {
 
 .hero-content {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .hero-content h2 {
@@ -78,7 +78,7 @@ nav .logo h1 {
 .island {
   text-align: center;
   margin: 20px;
-  background-color: white;
+  background-color: black;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
